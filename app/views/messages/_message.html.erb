@@ -1,0 +1,7 @@
+<div class="message-container" id="message-<%= message_in_the_partial.id %>">
+  <i class="author">
+    <span><%= message_in_the_partial.user.nickname %></span>
+    <small><%= message_in_the_partial.created_at.strftime("%a %b %e at %l:%M%p") %></small>
+  </i>
+  <p><%= message_in_the_partial.content %></p>
+</div>
